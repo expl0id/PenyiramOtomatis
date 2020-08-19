@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="39dp"-->
+            <!--android:text="Update Tanaman : "-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="18sp" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:text="UPDATE TANAMAN"
+            android:textColor="@color/blek"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/blek"
+            android:textAlignment="center"
+            android:text="Masukan nama terbaru"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textColor="@color/blek"
+                android:id="@+id/edit_nama_tanaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input Nama Tanaman" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/blek"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Masukan Inputan Fuzzy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blek"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Kering"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kiri_kering"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kiri"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_tengah_kering"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Tengah"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kanan_kering"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kanan"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/blek"
+            android:text="Lembab"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kiri_lembab"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kiri"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_tengah_lembab"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Tengah"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kanan_lembab"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kanan"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/blek"
+            android:textAlignment="center"
+            android:text="Basah"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kiri_basah"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kiri"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_tengah_basah"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Tengah"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/update_kanan_basah"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:hint="Kanan"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SET SEBAGAI FUZZY INPUT" />
+
+        <Button
+            android:id="@+id/update_tanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_tanaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        />
+</LinearLayout>
